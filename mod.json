@@ -1,0 +1,15 @@
+{
+  "_QPVersion": "1.0.0",
+  "name": "assimp",
+  "id": "assimp",
+  "author": "assimp, FutureMapper",
+  "version": "5.3.1",
+  "description": "assimp, version 5.3.1!",
+  "dependencies": [],
+  "modFiles": [
+    "libassimp.so"
+  ],
+  "libraryFiles": [],
+  "fileCopies": [],
+  "copyExtensions": []
+}

@@ -5,8 +5,7 @@
     "name": "assimp",
     "id": "assimp",
     "version": "5.3.1",
-    "url": null,
-    "url": "https://github.com/MillzyDev/NDK-tinyxml2",
+    "url": "https://github.com/BSQ-VRM/Assimp-QPM",
     "additionalData": {
       "overrideSoName": "libassimp.so"
     }

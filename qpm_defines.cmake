@@ -5,7 +5,7 @@ set(MOD_VERSION "5.3.1")
 set(MOD_ID "assimp")
 
 # derived from override .so name or just id_version
-set(COMPILE_ID "assimp_5_3_1")
+set(COMPILE_ID "assimp")
 # derived from whichever codegen package is installed, will default to just codegen
 set(CODEGEN_ID "codegen")
 
