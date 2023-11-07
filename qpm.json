@@ -1,15 +1,20 @@
 {
-  "sharedDir": "shared",
-  "dependenciesDir": "extern",
-  "info": {
-    "name": "assimp",
-    "id": "assimp",
-    "version": "5.3.1",
-    "url": "https://github.com/BSQ-VRM/Assimp-QPM",
-    "additionalData": {
-      "overrideSoName": "libassimp.so"
-    }
-  },
-  "dependencies": [],
-  "workspace": null
+    "sharedDir": "shared",
+    "dependenciesDir": "extern",
+    "info": {
+        "name": "assimp",
+        "id": "assimp",
+        "version": "5.3.1",
+        "url": "https://github.com/BSQ-VRM/Assimp-QPM",
+        "additionalData": {
+            "overrideSoName": "libassimp.so",
+            "compileOptions": {
+                "systemIncludes": [
+                    "shared/"
+                ]
+            }
+        }
+    },
+    "dependencies": [],
+    "workspace": null
 }
