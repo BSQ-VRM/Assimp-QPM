@@ -35,7 +35,7 @@ if ((-not ($cover -eq "./")) -and (Test-Path $cover)) {
 }
 
 foreach ($mod in $modJson.modFiles) {
-    $path = "./libs/" + $mod
+    $path = "./build/" + $mod
     if (-not (Test-Path $path)) {
         Write-Output "Error: could not find dependency: $path"
         exit 1
