@@ -4,9 +4,11 @@
     "info": {
         "name": "assimp",
         "id": "assimp",
-        "version": "5.3.1",
+        "version": "5.3.2",
         "url": "https://github.com/BSQ-VRM/Assimp-QPM",
         "additionalData": {
+            "soLink": "https://github.com/BSQ-VRM/Assimp-QPM/releases/download/5.3.2/libassimp.so",
+	    "modLink": "https://github.com/BSQ-VRM/Assimp-QPM/releases/download/5.3.2/assimp.qmod",
             "overrideSoName": "libassimp.so",
             "compileOptions": {
                 "systemIncludes": [

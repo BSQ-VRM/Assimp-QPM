@@ -8,7 +8,9 @@
       "version": "5.3.1",
       "url": "https://github.com/BSQ-VRM/Assimp-QPM",
       "additionalData": {
+        "soLink": "https://github.com/BSQ-VRM/Assimp-QPM/releases/download/5.3.1/libassimp.so",
         "overrideSoName": "libassimp.so",
+        "modLink": "https://github.com/BSQ-VRM/Assimp-QPM/releases/download/5.3.1/assimp.qmod",
         "compileOptions": {
           "systemIncludes": [
             "shared/"
